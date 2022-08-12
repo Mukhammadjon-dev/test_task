@@ -1,0 +1,39 @@
+.user_card{
+    background-color: rgb(253, 255, 235);
+    border: solid black 1px;
+    border-radius: 25px;
+    width: 700px;
+    height: 200px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 1.5rem auto;
+    box-shadow: 1px 1px 3px 2px rgb(83, 82, 82);
+}
+
+.user_card:hover {
+    transform: scale(1.013);
+    transition: all ease-in-out 0.1s;
+    cursor: pointer;
+    box-shadow: 3px 3px 5px 3px rgb(83, 82, 82);
+}
+
+.user_card_image{
+    border: solid black 1px;
+    box-shadow: 2px 2px 5px 3px rgb(83, 82, 82);
+    border-radius: 25px;
+    width: 170px;
+    height: 170px;
+}
+.user_card_image:hover{
+    border-radius: 50%;
+    transition: all ease-in-out 0.1s;
+}
+.user_card_button{
+    border:  rgb(46, 59, 136);
+    border-radius: 10px;
+    width: 7rem;
+    height: 2.2rem;
+    color: white;
+    background-color: rgb(46, 59, 136);
+}
